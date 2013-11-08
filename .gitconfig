@@ -1,0 +1,17 @@
+[alias]
+    ci = commit
+    co = checkout
+    st = status
+    praise = blame
+    br = branch
+    diffstat = diff --stat
+    cat = !cat @
+    ds = diff --stat
+    lol = log --graph --decorate --pretty=oneline --abbrev-commit
+    lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+
+[color]
+    branch = auto
+    diff = auto
+    interactive =auto
+    status = auto
